@@ -1,12 +1,12 @@
-import React from 'react'
-import InputOnChangeEvent from './unitTestCase/onChange/InputOnChangeEvent'
+import React from "react";
+import OnClickEventOnButton from "./unitTestCase/OnClickEventOnButton/OnClickEventOnButton";
 
 const App = () => {
   return (
     <div>
-      <InputOnChangeEvent/>
+      <OnClickEventOnButton />
     </div>
-  )
-}
+  );
+};
 
 export default App;
